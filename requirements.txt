@@ -1,0 +1,18 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+pandas>=1.5.0
+numpy>=1.21.0,<2.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.5.0
+
+# ── Refinitiv data access ─────────────────────────────────────────────────────
+# Choose ONE of the two options below depending on your setup:
+
+# Option A (recommended, already installed): Refinitiv Data Library
+refinitiv-data>=1.6.0
+
+# Option B: legacy Eikon Python API (uncomment if using Eikon Desktop)
+# eikon>=1.1.16
+
+# Optional fallback provider when Refinitiv is unavailable
+yfinance>=0.2.40
